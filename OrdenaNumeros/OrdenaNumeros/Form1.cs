@@ -6,7 +6,7 @@ namespace OrdenaNumeros
 {
     public partial class Form1 : Form
     {
-        //Atributos propios del juego
+        
         private int[,] matrizValores;
         private Button[,] matrizBotones;
         private int posicionFila, posicionColumna;
