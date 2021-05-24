@@ -10,6 +10,7 @@ using System.Windows.Forms;
 namespace OrdenaNumeros
 {
     class Logica
+
     {//Atributos propios del juego
         private int[,] matrizValores;
         private int posicionFila, posicionColumna;
@@ -58,7 +59,7 @@ namespace OrdenaNumeros
             posicionColumna = 0;
             matrizValores = new int[4, 4];
 
-            //Aqui se invocan los metodos que inicializan las matrices
+            //Metodos que inicializan las matrices
             InicializaMatrizValores();
         }
 
